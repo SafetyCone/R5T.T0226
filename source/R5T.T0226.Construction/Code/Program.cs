@@ -7,7 +7,7 @@ namespace R5T.T0226.Construction
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Demonstrations.Instance.Get_ExampleTypesAssemblyFilePath();
         }
     }
 }

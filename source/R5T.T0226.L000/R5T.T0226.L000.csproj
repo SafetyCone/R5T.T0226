@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Main">
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1573;1587;1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Label="Package">
+    <Version>1.0.0</Version>
+    <Authors>DCoats</Authors>
+    <Company>Rivet</Company>
+    <Copyright>Copyright © Rivet 2023</Copyright>
+    <Description>Functionality giving assembly reflection context access to R5T.T0226 types.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.L0035\source\R5T.L0035\R5T.L0035.csproj" />
+    <ProjectReference Include="..\R5T.T0226\R5T.T0226.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0172\source\R5T.T0172\R5T.T0172.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0213\source\R5T.T0213\R5T.T0213.csproj" />
+    <ProjectReference Include="..\..\..\R5T.L0059\source\R5T.L0059\R5T.L0059.csproj" />
+  </ItemGroup>
+</Project>
