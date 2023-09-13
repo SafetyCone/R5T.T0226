@@ -13,11 +13,11 @@ namespace R5T.T0226.L000
 
 
         /// <summary>
-        /// Chooses <see cref="Internal.IFilePathProvider.Get_R5T_T0226_AssemblyFilePath_InExecutableDirectory"/> as the default.
+        /// Chooses <see cref="Internal.IFilePathProvider.Get_R5T_T0225_T000_AssemblyFilePath_InExecutableDirectory"/> as the default.
         /// </summary>
         public IAssemblyFilePath Get_ExampleTypesAssemblyFilePath()
         {
-            var output = Internal.Get_R5T_T0226_AssemblyFilePath_InExecutableDirectory();
+            var output = Internal.Get_R5T_T0225_T000_AssemblyFilePath_InExecutableDirectory();
             return output;
         }
     }
